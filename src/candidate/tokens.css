@@ -1,0 +1,34 @@
+/* Hajir design tokens (colors, type, spacing, radius, elevation, semantic aliases),
+   transcribed from the Hajir design system project. */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+:root{
+--font-ui:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;
+--hajir-navy-900:#00246B;--hajir-navy-700:#002F8C;--hajir-navy-500:#22408B;
+--hajir-blue-600:#004DE8;--hajir-blue-500:#1677FF;--hajir-blue-400:#2D69FF;--hajir-blue-050:#EBF0FC;
+--ink-900:#333333;--ink-800:#424344;--ink-700:#606060;--ink-600:rgba(51,51,51,.8);--ink-500:rgba(51,51,51,.7);--ink-400:rgba(51,51,51,.5);
+--surface-0:#FFFFFF;--surface-50:#F8F8F8;--surface-100:#F1F1F1;--surface-200:#E2E2E2;
+--line-200:#E0E0E0;--line-300:#DDDDDD;--line-400:#A1A9B8;--line-shadow-16:rgba(70,79,96,.16);--line-shadow-20:rgba(70,79,96,.2);
+--success-500:#008000;--warning-500:#FFA500;--danger-500:#FF5050;--danger-600:#DA1313;
+--purple-500:#9459FF;--magenta-500:#C200C2;
+--success-tint:rgba(0,128,0,.1);--warning-tint:rgba(255,165,0,.1);--danger-tint:rgba(255,80,80,.1);
+--ink-tint:rgba(51,51,51,.1);--purple-tint:rgba(151,71,255,.1);--magenta-tint:rgba(194,0,194,.1);
+--blue-tint:rgba(22,119,255,.1);--navy-tint:rgba(0,36,107,.1);
+--success-tint-5:rgba(0,128,0,.05);--warning-tint-5:rgba(255,165,0,.05);--danger-tint-5:rgba(255,80,80,.05);--info-tint-5:rgba(22,119,255,.05);
+--fs-12:12px;--lh-12:16px;--fs-14:14px;--lh-14:20px;--fs-16:16px;--lh-16:24px;
+--fw-regular:400;--fw-medium:500;--fw-semibold:600;--fw-bold:700;
+--ls-tight:0.010em;--ls-normal:0.015em;--ls-loose:0.020em;
+--radius-4:4px;--radius-6:6px;--radius-7:7px;--radius-8:8px;--radius-13:13px;--radius-circle:100px;
+--ring-control:0 1px 1px 0 rgba(0,0,0,.1),0 0 0 1px var(--line-shadow-16);
+--ring-control-disabled:0 0 0 1px var(--line-shadow-20);
+--ring-checked:0 1px 1px 0 rgba(0,0,0,.1),0 0 0 1px #5E5ADB;
+--ring-focus:0 1px 1px 0 rgba(0,0,0,.1),0 0 0 1px var(--hajir-navy-500),0 0 0 4px rgba(34,64,139,.4);
+--ring-radio-selected:inset 0 0 0 1px var(--line-200),0 1px 1px 0 rgba(0,0,0,.1),0 0 0 2px rgba(34,64,139,.2);
+--shadow-menu:0 0 20px 0 rgba(0,0,0,.1);--shadow-dialog:0 0 40px 0 rgba(0,0,0,.1);
+--text-primary:var(--ink-900);--text-muted:var(--ink-700);--text-placeholder:var(--ink-500);--text-link:var(--hajir-blue-500);
+--icon-default:var(--ink-500);--icon-strong:var(--ink-900);
+}
+html,body{margin:0;background:#F1F1F1;font-family:var(--font-ui);color:#333}
+*{box-sizing:border-box}
+#root{width:auto;max-width:none;margin:0;padding:0;border:0;text-align:left;display:block}
+h1,h2,h3{font-family:var(--font-ui);letter-spacing:normal}
+a{color:var(--text-link)}a:hover{color:var(--hajir-blue-600)}
